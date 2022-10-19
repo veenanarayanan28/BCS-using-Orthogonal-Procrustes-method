@@ -1,2 +1,0 @@
-# BCS_using_Orthogonal_Procrustes_method
-Signal Reconstruction from Blind Compressive Measurements using Procrustes Method
