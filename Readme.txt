@@ -1,4 +1,4 @@
-**Signal Reconstruction from Blind Compressive Measurements using Procrustes Method**
+Signal Reconstruction from Blind Compressive Measurements using Procrustes Method
 
 Main code : main_BCS_PM_speech.m
 Input files: speech_A_Y_m32_rev4.mat
