@@ -1,4 +1,4 @@
-**Signal Reconstruction from Blind Compressive Measurements using Procrustes Method**
+📊 **Signal Reconstruction from Blind Compressive Measurements using Procrustes Method**
 
 This repository provides a MATLAB implementation of a technique to reconstruct speech signals from their blind compressed measurements, where the sparsifying basis is unknown. 
 The method employs the Orthogonal Procrustes method to estimate the basis and refines the reconstructed signal using ℓ₁-trend filtering.
