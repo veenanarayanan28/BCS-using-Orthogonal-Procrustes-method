@@ -14,16 +14,16 @@ This implementation focuses on:
 
 🗂️ **File Structure**
 
-**Main code and input file:**
+| **File Name**             | **Description**                                                |
+| ------------------------- | -------------------------------------------------------------- |
+| `main_BCS_PM_speech.m`    | Main script for signal reconstruction                          |
+| `speech_A_Y_m32_rev4.mat` | Input speech data                                              |
+|                           |                                                                |
+| **Functions:**            |                                                                |
+| `updating_C.m`            | Updates representing coefficients using Basis Pursuit          |
+| `updating_X.m`            | Updates signal estimate                                        |
+| `reg.m`                   | Regularization function for ℓ₁-trend filtering                 |
+| `circulant.m`             | Generates circulant matrix for use in filtering or convolution |
+| `frames2vec.m`            | Combines the speech segments to form the complete signal       |
+| `README.md`               | Project documentation                                          |
 
-├── main_BCS_PM_speech.m         # Main script for signal reconstruction
-├── speech_A_Y_m32_rev4.mat      # Input speech data
-
-**Functions:**
-
-├── updating_C.m                 # Updates representing coefficients
-├── updating_X.m                 # Updates signal estimate
-├── reg.m                        # Regularization function for ℓ₁-trend filtering
-├── circulant.m                  # Circulant matrix utility function
-├── frames2vec.m                 # Combines the speech segments to form the complete signal 
-├── README.md                    # Project documentation
