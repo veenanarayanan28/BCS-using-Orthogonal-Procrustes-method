@@ -1,4 +1,23 @@
-Signal Reconstruction from Blind Compressive Measurements using Procrustes Method
+**Signal Reconstruction from Blind Compressive Measurements using Procrustes Method**
+
+A technique to reconstruct speech signals from their blind compressed measurements when the representing basis (sparsifying basis) is unknown.
+
+The method uses:
+
+**Orthogonal Procrustes method** to estimate the sparsifying basis.
+**$\ell _1$-trend filtering** for signal refinement.
+
+
+
+
+
+
+
+
+
+
+
+
 
 Main code : main_BCS_PM_speech.m
 Input files: speech_A_Y_m32_rev4.mat
