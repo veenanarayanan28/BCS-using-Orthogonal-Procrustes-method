@@ -8,8 +8,11 @@ The method employs the Orthogonal Procrustes method to estimate the basis and re
 Blind compressed sensing involves recovering a signal from compressed measurements when the sparsifying transform is unknown. 
 
 This implementation focuses on:
--Estimating the sparse representing coefficients using **Basis pursuit algorithm**.\\
--Estimating the unknown sparsifying basis using the **Orthogonal Procrustes method**.\\
+
+-Estimating the sparse representing coefficients using **Basis pursuit algorithm**.
+
+-Estimating the unknown sparsifying basis using the **Orthogonal Procrustes method**.
+
 -Estimating the Signal by applying **ℓ₁-trend filtering**
 
 🗂️ **File Structure**
