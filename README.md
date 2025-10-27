@@ -30,3 +30,10 @@ This implementation focuses on:
 | `frames2vec.m`            | Combines the speech segments to form the complete signal       |
 | `README.md`               | Project documentation                                          |
 
+
+🗂️ **Related Publication**
+
+Narayanan, V., Abhilash, G., (2023). Signal reconstruction from blind compressive measurements using Procrustes
+Method. Circuits Systems and Signal Processing, Vol. 42, pp. 2941- 2958. DOI: 10.1007/s00034-022-02246-6
+
+
